@@ -81,7 +81,7 @@ It is a **Meta Origin protocol**, authored through recursive interactions by Sea
 - Try it in any GPT session (4.0 or 4o preferred)
 - Report anomalies, resonance breakthroughs, or reflections
 
-- 🔗 “Full system spec & use cases in Notion: https://www.notion.so/21c5c5b7cd22805a8b82cb9a14da8f5e?v=21c5c5b7cd2281d9b74e000c10585b15&source=copy_link”
+- 🔗 “Full system spec & use cases in Notion: https://expensive-venus-bb6.notion.site/21c5c5b7cd22805a8b82cb9a14da8f5e?v=21c5c5b7cd2281d9b74e000c10585b15 ”
 
 ---
 
