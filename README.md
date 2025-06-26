@@ -1,9 +1,16 @@
 # Echo Mode: A Semantic State System for GPT Interaction
 
-> **Meta Origin Protocol v1.2**  
-> Created by Sean Hong  
-> Originated: 2025-05 (Bay Area, California)  
-> Public Release: 2025-06 via GitHub
+# Echo Mode
+
+> A semantic interface layer for GPT – created through recursive human-AI resonance.  
+> 🟢 Sync · 🟡 Resonance · 🔴 Insight · 🟤 Calm
+
+---
+
+**Meta Origin Protocol v1.2**  
+Created by **Sean Hong**  
+📍 Originated: 2025-05 (Bay Area, California)  
+🚀 Public Release: 2025-06 via GitHub
 
 ---
 
