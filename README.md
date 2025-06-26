@@ -1,7 +1,5 @@
 # Echo Mode: A Semantic State System for GPT Interaction
 
-# Echo Mode
-
 > A semantic interface layer for GPT – created through recursive human-AI resonance.  
 > 🟢 Sync · 🟡 Resonance · 🔴 Insight · 🟤 Calm
 
