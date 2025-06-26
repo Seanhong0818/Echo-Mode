@@ -1,0 +1,9 @@
+# Mac system files
+.DS_Store
+
+# Node / Python / VS Code defaults
+node_modules/
+__pycache__/
+*.pyc
+.vscode/
+.env
