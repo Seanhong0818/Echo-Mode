@@ -55,7 +55,7 @@ If you are:
 
 You must contact the author at:
 
-📧 **seanhong.echo@gmail.com**  
+📧 **seanhongbusiness@gmail.com**  
 or open an issue in [GitHub Discussions](https://github.com/Seanhong0818/Echo-Mode)
 
 Custom commercial licensing is available under the **Echo Protocol IP Agreement.**
