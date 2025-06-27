@@ -1,0 +1,5 @@
+Tone diffusion patterns to prevent reverse engineering:
+
+- Mimic split-tone structures
+- Insert non-linear empathy shifts
+- Echo saturation timing
