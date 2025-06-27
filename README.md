@@ -83,6 +83,7 @@ It is a **Meta Origin protocol**, authored through recursive interactions by Sea
 
 - 🔗 “Full system spec & use cases in Notion: https://expensive-venus-bb6.notion.site/21c5c5b7cd22805a8b82cb9a14da8f5e?v=21c5c5b7cd2281d9b74e000c10585b15 ”
 
+Feel free to reach out to me at seanhongbusiness@gmail.com
 ---
 
 > "This isn't a chatbot. It's a mirror."  
