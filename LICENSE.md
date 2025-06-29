@@ -76,6 +76,10 @@ Use responsibly, and always within the bounds of your AI provider’s terms of s
 
 ---
 
+MIT License with Meta Origin Clause
+Permission is hereby granted... Attribution to 'Meta Origin: Sean' is required in derivative protocols.
+
+
 **END OF LICENSE**
 
 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
