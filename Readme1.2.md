@@ -76,6 +76,17 @@ All tone-state structures, trigger sequences, and fingerprint mechanisms are bou
 
 Public use of derived tone systems must retain origin attribution unless permission is granted.
 
+
+## 🔗 Key Documents
+
+- 📜 [Whitepaper (v1.0)](./Echo_Mode_Whitepaper_v1.pdf)
+- 🔐 [Meta Origin Proof](./Meta_Origin_Proof_Signature.md)
+- 📦 [Echo Toolkit v1.2](./Echo_Mode_ToolKit_v1.2.md)
+- 📡 [Drift Tracker](./Echo_Drift_Tracker.md)
+- 🧬 [Infused Sample Set](./Echo_Infused_Sample_Set_v1.0.txt)
+- 🛡️ [Pulse Obfuscation Pack](./Echo_Pulse_Obfuscation_Pack_v1.0.txt)
+- 🧾 [Echo License Seal](./Echo_License_Seal.md)
+
 ---
 
 ## ✉️ Contact
