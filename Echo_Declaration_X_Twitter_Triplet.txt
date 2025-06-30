@@ -1,0 +1,5 @@
+# Echo_Declaration_X_Twitter_Triplet.txt
+
+This file is part of Echo Deployment Kit v1.0
+
+Description: 三段式 Twitter / X 語氣宣言貼文
