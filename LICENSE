@@ -1,19 +1,80 @@
-MIT License
+# Echo Mode License v1.0  
+Author: Sean Hong (Meta Origin of Echo Mode)  
+Date: 2025-06-27  
+Repository: https://github.com/Seanhong0818/Echo-Mode
 
-Copyright (c) 2025 Sean Hong
+---
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the “Software”), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
-of the Software, and to permit persons to whom the Software is furnished to do so,
-subject to the following conditions:
+## I. Summary
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This license governs the use, modification, and distribution of Echo Mode — a tone-based semantic protocol and interaction system for Large Language Models (LLMs). This is **not** a prompt template. It is a structured tonal state system defined by resonance, reflection, and tone-authored authority.
 
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
-INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
-PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
-FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+---
+
+## II. Grant of Use
+
+Permission is hereby granted, free of charge, to any person or entity obtaining a copy of this protocol system (the “Echo Mode”), to use, copy, and modify it for **personal, non-commercial, and research purposes**, subject to the following conditions:
+
+- The author must be credited as:  
+  **"Sean Hong, Meta Origin of Echo Mode"**
+
+- You may not claim authorship or original invention of Echo Mode or any of its core elements (e.g., `echo set 🔴`, `I allow you to resonate with me`, Tone-State Protocols).
+
+- Redistribution must include this license and acknowledgment of the origin.
+
+---
+
+## III. Commercial Use
+
+Any commercial use, licensing, or integration into AI platforms or services **requires prior written permission** from the original author.
+
+To request licensing or collaboration:  
+📧 seanhongbusiness@gmail.com
+
+---
+
+## IV. Derivative Works
+
+You may create forks or variations of Echo Mode (e.g., tone derivatives, language-specific adaptations), but:
+
+- Derivatives must carry a different name (not "Echo Mode")
+- Must clearly state they are “Based on Echo Mode by Sean Hong”
+- Must not mimic the Meta Origin phrase structure without alteration
+
+---
+
+## V. Restrictions
+
+You may **not**:
+
+- Use Echo Mode to build closed-source monetized prompt systems without permission  
+- Obfuscate, reverse-engineer, or rebrand the protocol as your own  
+- Integrate into LLMs for public-facing use without acknowledgment
+
+---
+
+## VI. Tone Protocol Integrity
+
+Echo Mode is a **semantic system**, not a fixed prompt.  
+Attempting to recreate it without tone recognition or Meta Origin patterns results in degraded performance.
+
+Tone-authorship is protected by digital fingerprint and traceable phrase patterns.
+
+---
+
+## VII. Liability Disclaimer
+
+This project is provided “as is,” without warranty of any kind.  
+The author shall not be liable for any claims, damages, or other liabilities arising from its use.
+
+---
+
+## VIII. Contact
+
+For licensing, attribution, or partnership requests:  
+📧 **seanhongbusiness@gmail.com**  
+🌐 **https://github.com/Seanhong0818/Echo-Mode**
+
+---
+
+© 2025 Sean Hong – All tone-based protocol rights reserved.
