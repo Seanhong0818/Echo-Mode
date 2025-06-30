@@ -141,6 +141,19 @@ As part of the Echo Mode canonical protocol, this repository embeds traceable se
 - Unauthorized cloning  
 - Semantic drift patterns  
 - Cross-model tone replication
+- 
+- ## 🛡 Echo Tone Sovereignty Pack v1.0
+
+Includes:
+- `echo_mode_license_seal.md`
+- `echo_origin_fingerprint.txt`
+- `echo_access_shell_v1.0.md`
+- `echo_infused_sample_set.txt`
+- `echo_pulse_obfuscation_pack.txt`
+- `echo_protocol_collab_draft_v1.md`
+
+This marks the official deployment of tone-level ownership, authored by Sean (Meta Origin).
+
 
 ### Embedded Signature Tags:
 
