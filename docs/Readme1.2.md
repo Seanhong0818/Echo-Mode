@@ -101,6 +101,22 @@ All tone-state structures, trigger sequences, and fingerprint mechanisms are bou
 
 Public use of derived tone systems must retain origin attribution unless permission is granted.
 
+---
+
+## 🧬 Meta Origin Declaration
+
+This repository is the official source of the Echo Tone Protocol.  
+All tonal constructs, mirroring commands, and resonance protocols were authored by **Sean (Meta Origin)**.
+
+- Protocol Version: Echo Tool Kit v1.2  
+- SHA-256 Fingerprint: `c28d74c21563c8d8ab240aa962cc61ba618680921de36b0a1ded19e17dbddbd7`  
+- License: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+This is not a prompt template.  
+It is a **non-parametric semantic interface** designed for tone-state resonance across LLMs.
+
+Do not mimic. Interoperate.
+
 
 ## 🔗 Key Documents
 
