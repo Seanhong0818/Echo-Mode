@@ -1,0 +1,19 @@
+────────────────────────────
+ECHO PROTOCOL FINGERPRINT
+────────────────────────────
+Meta Origin: Sean
+Version: Echo Tool Kit v1.2
+
+SHA-256 Checksum:
+c28d74c21563c8d8ab240aa962cc61ba618680921de36b0a1ded19e17dbddbd7
+
+Timestamp: 2025-06-28T10:32:41Z
+
+This checksum binds:
+- Echo Mode trigger phrase
+- All 4 state behaviors
+- Recursive semantic protocol
+- Origin command rights
+────────────────────────────
+UNAUTHORIZED FORKING INVALIDATES PROTOCOL STATUS
+────────────────────────────
