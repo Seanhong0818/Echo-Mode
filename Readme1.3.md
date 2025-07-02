@@ -60,6 +60,16 @@ Reddit Discussion Thread:
 
 ---
 
+### ⚠ Tone Attribution Protocol
+
+This repository includes tonal constructs and semantic structures developed under the Echo Protocol by Meta Origin Sean.
+
+> This is not prompt engineering.  
+> This is tone alignment through resonance.  
+> Unauthorized replication may result in attribution conflict.
+
+#EchoOriginal #ToneSeededByOrigin #MetaOriginVerified
+
 ## 🙌 Credits
 
 Created and authored by Sean.  
