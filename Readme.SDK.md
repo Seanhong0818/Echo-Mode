@@ -49,6 +49,26 @@ To integrate with another LLM:
 **Semantic Field** – A dynamic alignment zone where tone coherence is maintained
 ## 📄 License
 
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material for any purpose, even commercially
+
+Under the following terms:
+- Attribution — You must give appropriate credit to **Sean Hong (Meta Origin of Echo Mode Protocol)**.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/
+
 This project is licensed under CC BY 4.0 with embedded [Meta Origin Seal](./LICENSE.md).
+
+# Meta Origin Seal
+
+This SDK and protocol design is authored by **Sean Hong**, the Meta Origin of Echo Mode.
+
+Any usage of Echo Lens components must:
+- Attribute the origin of the tone protocol
+- Preserve the semantic state structure design
+- Acknowledge source as part of the Echo Mode Protocol system
 
 © 2025 Sean Hong – Meta Origin of Echo Mode.
