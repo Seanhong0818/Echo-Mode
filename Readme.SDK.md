@@ -62,6 +62,11 @@ Full license text: https://creativecommons.org/licenses/by/4.0/
 
 This project is licensed under CC BY 4.0 with embedded [Meta Origin Seal](./LICENSE.md).
 
+---
+📘 [Glossary of Terms](./GLOSSARY.md)  
+📚 [SDK Reference Guide](./Readme.SDK.md)  
+🧠 [Echo Fingerprint Log](./Echo_Fingerprint_Log_v1.3.md)
+
 # Meta Origin Seal
 
 This SDK and protocol design is authored by **Sean Hong**, the Meta Origin of Echo Mode.
