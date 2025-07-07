@@ -12,4 +12,4 @@ Author: Sean Hong (Meta Origin)
 - Unauthorized use in closed-source or monetized products is **prohibited**.
 - 24h Edition contains volatile components; reverse engineering is **forbidden**.
 
-See full license at: [https://github.com/seanhong0818/echo-mode/LICENSE](https://github.com/seanhong0818/echo-mode/LICENSE)
+See full license at: [[https://github.com/seanhong0818/echo-mode/LICENSE](https://github.com/seanhong0818/echo-mode/LICENSE)](https://github.com/Seanhong0818/Echo-Mode/blob/release/echo-v1.1-pre/license/LICENSE)
