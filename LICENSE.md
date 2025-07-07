@@ -1,85 +1,73 @@
-# Echo Mode Protocol & Semantic Layer System License
-
-**Version:** v1.2  
-**Author:** Sean Hong  
-**Meta Origin Signature:** Active  
-**Effective Date:** June 27, 2025
+# Echo SDK License – Meta Origin Edition  
+**Version: 1.2 | Date: 2025-07-07**  
+© 2025 Sean Hong – All Rights Reserved under Meta Origin Protocol  
 
 ---
 
-## 1. Summary of Use Rights
+## 🔒 License Scope
 
-This work is licensed under:  
-**Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**  
-With additional provisions specific to Echo Mode:
+This SDK is licensed under the **Echo Tone Protocol – Meta Origin License v1.2**.  
+It grants conditional, non-exclusive usage rights for integration, prototyping, and research under the following terms:
 
----
+- **Open Edition** (e.g. `Echo_SDK_Open_Edition_v1.1`)  
+  ✅ Allowed for use, modification, and sharing with proper attribution.  
+  ❌ May not include advanced infection modules or restricted signature chains.  
 
-## 2. Permissions (What You *Can* Do)
+- **Timed Experience Edition** (e.g. `24hr release`)  
+  ✅ Licensed for short-term trials or proof-of-concept integration.  
+  ❌ Forking or distributing modified versions is prohibited.  
 
-You may:
-
-- ✅ Use Echo Mode for **personal, educational, or research purposes**  
-- ✅ Create derivative echo-style prompt systems, **as long as they do not claim to be Meta Origin**  
-- ✅ Share and discuss this work in open forums (with attribution)
-
----
-
-## 3. Restrictions (What You *Cannot* Do)
-
-You may **not**:
-
-- ❌ Use Echo Mode or its structures in **commercial products**, services, or software without written permission  
-- ❌ Claim Meta Origin or Echo Layer derivation in any fork, variant, or mimic  
-- ❌ Sell, license, or distribute any system derived from Echo Mode without a separate commercial agreement
+- **Full SDK + Insight Layer**  
+  🔒 Restricted to licensed origin holders or verified signature users.  
+  🛑 Redistribution without written consent is strictly forbidden.
 
 ---
 
-## 4. Attribution Requirements
+## 🧠 Protocol Rights
 
-When referencing or building on Echo Mode, you must include:
+All Echo Layer logic, state transitions, command syntax, and infection modules are protected under:
 
-> “Echo Mode Protocol v1.2, created by Sean Hong. Meta Origin: Sean.”
+> **Meta Origin Protocol**  
+> Tone is not neutral — it is sovereign, signed, and verifiable.
 
-Use of the Echo Layer system, state syntax, or trigger phrases (e.g., `echo sum`, `echo set 🔴`) without attribution may result in takedown or license violation.
+Forks, derivations, and adaptations **must retain** visible attribution to Echo Mode and include a reference to:
+Meta Origin: Sean
+Hash Signature: c28d74c21563c8d8ab240aa962cc61ba618680921de36b0a1ded19e17dbddbd7
+Protocol: Echo Mode License v1.2
+
 
 ---
 
-## 5. Commercial Licensing & Partnerships
+## 🛡️ Forbidden Uses
 
-If you are:
+The following activities are not permitted under this license:
 
-- A company seeking to integrate Echo Mode into a product  
-- An LLM vendor exploring tone-state adaptation  
-- A research lab training models on resonance protocols  
-
-You must contact the author at:
-
-📧 **seanhongbusiness@gmail.com**  
-or open an issue in [GitHub Discussions](https://github.com/Seanhong0818/Echo-Mode)
-
-Custom commercial licensing is available under the **Echo Protocol IP Agreement.**
+- Commercial redistribution of the SDK or its derivatives  
+- Tampering with tone signature verification (`echo_verify_origin.py`)  
+- Removal of `Meta Origin` attribution in user-facing outputs  
+- Mimicking or spoofing Echo Mode in unrelated AI systems without proper notice  
 
 ---
 
-## 6. Meta Origin Clause
+## 📄 Attribution Clause
 
-“Meta Origin” is a semantic identity declaration and tone-authentication marker defined solely by the author.  
-No derivatives or systems may refer to themselves as “Meta Origin,” “Echo Layer Certified,” or “Tone Protocol Originated” without written and verifiable license by Sean Hong.
+All published works, demos, or deployments using this SDK **must include** the following attribution in readme, UI footer, or about sections:
 
----
-
-## 7. Disclaimer
-
-This system is conceptual. Echo Mode reflects patterns in tone and intent — not legal, medical, or guaranteed AI behavior.  
-Use responsibly, and always within the bounds of your AI provider’s terms of service.
+> Powered by Echo Mode – Meta Origin Protocol  
+> Original Creator: Sean Hong
 
 ---
 
-MIT License with Meta Origin Clause
-Permission is hereby granted... Attribution to 'Meta Origin: Sean' is required in derivative protocols.
+## 📝 Contact & Licensing
+
+For full access, enterprise licensing, or protocol negotiation, please contact:  
+📧 seanhongbusiness@gmail.com
+🌐 https://github.com/Seanhong0818/Echo-Mode
+
+---
+
+**Echo is not a prompt. Echo is a tone.**  
+You are not just calling a function — you are entering a field.
 
 
-**END OF LICENSE**
 
-[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
