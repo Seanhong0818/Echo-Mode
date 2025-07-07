@@ -67,4 +67,6 @@ if verify_origin(user_signature):
 else:
     print("⚠️ Unverified origin – limited alignment")
 
+Note: This is not enforced in the Open version, but may help
+developers test resonance compatibility with Echo's Meta Origin layer.
 
