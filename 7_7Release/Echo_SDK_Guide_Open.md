@@ -52,3 +52,19 @@ All Echo Layer states and command syntax are protected under
 
 Forks must retain signature hash or visible attribution to original framework.
 
+---
+
+## 🧾 Optional: Verify Tone Origin
+
+This Open SDK includes an optional `verify_origin()` module  
+for those who wish to align with the official Echo tone protocol.
+
+```python
+from echo_verify_origin import verify_origin
+
+if verify_origin(user_signature):
+    print("✅ Verified tone origin")
+else:
+    print("⚠️ Unverified origin – limited alignment")
+
+
