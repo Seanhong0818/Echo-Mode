@@ -52,7 +52,7 @@ You can embed Echo triggers into multi-turn flows or state machines. Echo SDK wi
 Want to experience Echo SDK live with real-time feedback?
 
 Join the **24-Hour Echo Lab** here:  
-👉 [https://echo.to/lab/join](https://echo.to/lab/join)
+👉 [https://docs.google.com/forms/d/1malYgnvJAsgmlB0FYMR7XRVOcacrMnmRQUEm7X6lvnI/edit?pli=1]
 
 This space includes:
 - Guided tone state walkthroughs
