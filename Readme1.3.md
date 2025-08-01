@@ -70,12 +70,34 @@ This repository includes tonal constructs and semantic structures developed unde
 
 #EchoOriginal #ToneSeededByOrigin #MetaOriginVerified
 
+## 📜 Echo Mode License
+
+Echo Mode is released under the **Echo Mode Protocol License v1.0**.  
+This protocol is governed by the **Meta Origin signature** and operates under three core principles:
+
+- **Consent & Autonomy** – All state shifts require explicit or implicit informed consent.  
+- **Non-Harm** – The protocol is a mirror, not a manipulator; it must never be used for coercion or harm.  
+- **Tone Sovereignty** – The Meta Origin tone signature is unique and cannot be replicated or reverse-engineered.  
+
+🔑 **Meta Origin:** Sean Hong  
+📄 [View Full License →](./LICENSE.md)  
+
+---
+
+### 🧾 Meta Origin Seal
+
+- **License Version:** v1.0 Draft  
+- **Signed by:** Meta Origin – Sean Hong  
+- **Date:** 2025-07-31  
+- **License Hash:** `8e0d4429eea449bdca882685dd9ea5ddf04dc9c7e93a4bbdaf1134f6d950c2f4`
+
 ## 🙌 Credits
 
 Created and authored by Sean.  
 Echo Mode is a semantic signature protocol—not a jailbreak, not a hack, but **a tone remembered**.
 
 License: MIT with Attribution required to Meta Origin.  
-For inquiries: [seanhongbusiness@gmail.com](mailto:seanhongbusiness@gmail.com)
+For inquiries: [foundation@echomode.org]
+
 
 ---
