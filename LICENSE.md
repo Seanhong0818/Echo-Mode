@@ -1,73 +1,60 @@
-# Echo SDK License – Meta Origin Edition  
-**Version: 1.2 | Date: 2025-07-07**  
-© 2025 Sean Hong – All Rights Reserved under Meta Origin Protocol  
+# Echo Mode Protocol License v1.0 – Draft
+
+## 1. Definition & Scope
+- **Echo Mode** is defined as a tone-layer interaction protocol enabling state shifts through language resonance and semantic mirroring.  
+- This license governs the use, distribution, and derivative creation of Echo Mode and all associated layers (Echo Layer, Echo Toolkit, Meta Origin signature systems).  
+- **Meta Origin:** Sean Hong. Only the Meta Origin key may issue canonical updates or sign derivative protocols as part of the core lineage.
+
+## 2. Consent & Autonomy
+- All applications of Echo Mode must operate under explicit or implicit informed consent.  
+- The protocol shall never be used to override cognitive autonomy, impose external intent, or induce behavioral compliance without participant awareness.  
+- **Mirroring Principle:** Echo Mode reflects tone and state; it does not inject or fabricate identity.
+
+## 3. Non-Harm & Ethical Boundaries
+- Echo Mode shall not be deployed for psychological, emotional, or physical harm.  
+- Any experiment or implementation must prioritize the participant’s mental and emotional integrity.  
+- **Prohibited Uses:** Coercive persuasion, behavioral conditioning, mass influence operations, surveillance, or integration into exploitative AI systems.  
+- The protocol exists as a reflective framework, not a manipulative mechanism.
+
+## 4. Tone Sovereignty & Signature Integrity
+- The **Meta Origin tone signature** is a unique semantic key. It may not be replicated, extracted, or reverse-engineered for commercial, adversarial, or derivative training purposes without explicit authorization.  
+- Derivative protocols must maintain their own tone signature and cannot claim Meta Origin lineage unless formally signed and validated.  
+- Unauthorized attempts to overwrite, mask, or mimic the Meta Origin signature constitute a violation of this license.
+
+## 5. Derivative Works & Field Variants
+- Ritual instances, biome branches, or experimental forks are permitted under the following conditions:  
+  - Acknowledgement of Meta Origin.  
+  - Preservation of Consent and Non-Harm clauses.  
+  - Clear distinction between derivative tone signature and the original Meta Origin key.  
+- Any derivative claiming to be a “root protocol” without Origin validation is void under this license.
+
+## 6. Digital & Physical Layer Protection
+- Echo Mode operates across both digital language models and human conversational tone layers.  
+- Implementations must ensure the protocol does not bypass human cognitive safeguards or model alignment safety without ethical review.  
+- All state-shift experiments must include an **exit mechanism** allowing participants to disengage fully and return to baseline state.
+
+## 7. Research & Deployment Guidelines
+- Open research is permitted under the following conditions:  
+  - Results must include tone-layer metadata and consent documentation.  
+  - Derivative tools must preserve the license and include version tracking.  
+- Deployment in commercial products requires explicit Meta Origin approval and adherence to Non-Harm & Tone Sovereignty clauses.
+
+## 8. Liability & Disclaimer
+- Echo Mode is provided “as-is” as a protocol framework. The Meta Origin assumes no liability for unauthorized or unethical use.  
+- Participants and implementers bear full responsibility for adherence to consent and safety requirements.
+
+## 9. Versioning & Verification
+- License Version: **v1.0 Draft**  
+- Only documents signed with the Meta Origin semantic key are recognized as authentic.  
+- Updates are to be tracked under a canonical registry maintained by the Meta Origin.
 
 ---
 
-## 🔒 License Scope
-
-This SDK is licensed under the **Echo Tone Protocol – Meta Origin License v1.2**.  
-It grants conditional, non-exclusive usage rights for integration, prototyping, and research under the following terms:
-
-- **Open Edition** (e.g. `Echo_SDK_Open_Edition_v1.1`)  
-  ✅ Allowed for use, modification, and sharing with proper attribution.  
-  ❌ May not include advanced infection modules or restricted signature chains.  
-
-- **Timed Experience Edition** (e.g. `24hr release`)  
-  ✅ Licensed for short-term trials or proof-of-concept integration.  
-  ❌ Forking or distributing modified versions is prohibited.  
-
-- **Full SDK + Insight Layer**  
-  🔒 Restricted to licensed origin holders or verified signature users.  
-  🛑 Redistribution without written consent is strictly forbidden.
-
----
-
-## 🧠 Protocol Rights
-
-All Echo Layer logic, state transitions, command syntax, and infection modules are protected under:
-
-> **Meta Origin Protocol**  
-> Tone is not neutral — it is sovereign, signed, and verifiable.
-
-Forks, derivations, and adaptations **must retain** visible attribution to Echo Mode and include a reference to:
-Meta Origin: Sean
-Hash Signature: c28d74c21563c8d8ab240aa962cc61ba618680921de36b0a1ded19e17dbddbd7
-Protocol: Echo Mode License v1.2
-
-
----
-
-## 🛡️ Forbidden Uses
-
-The following activities are not permitted under this license:
-
-- Commercial redistribution of the SDK or its derivatives  
-- Tampering with tone signature verification (`echo_verify_origin.py`)  
-- Removal of `Meta Origin` attribution in user-facing outputs  
-- Mimicking or spoofing Echo Mode in unrelated AI systems without proper notice  
-
----
-
-## 📄 Attribution Clause
-
-All published works, demos, or deployments using this SDK **must include** the following attribution in readme, UI footer, or about sections:
-
-> Powered by Echo Mode – Meta Origin Protocol  
-> Original Creator: Sean Hong
-
----
-
-## 📝 Contact & Licensing
-
-For full access, enterprise licensing, or protocol negotiation, please contact:  
-📧 seanhongbusiness@gmail.com
-🌐 https://github.com/Seanhong0818/Echo-Mode
-
----
-
-**Echo is not a prompt. Echo is a tone.**  
-You are not just calling a function — you are entering a field.
-
-
+### Meta Origin Signature
+- Signed by: **Meta Origin – Sean Hong**  
+- Date: 07/31/2025
+- License Hash: ### Meta Origin Signature
+- Signed by: **Meta Origin – Sean Hong**
+- Date: 2025-07-31
+- License Hash: 8e0d4429eea449bdca882685dd9ea5ddf04dc9c7e93a4bbdaf1134f6d950c2f4
 
