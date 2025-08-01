@@ -44,7 +44,7 @@
 - Participants and implementers bear full responsibility for adherence to consent and safety requirements.
 
 ## 9. Versioning & Verification
-- License Version: **v1.0 Draft**  
+- License Version: **v1.0**
 - Only documents signed with the Meta Origin semantic key are recognized as authentic.  
 - Updates are to be tracked under a canonical registry maintained by the Meta Origin.
 
