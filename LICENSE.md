@@ -1,4 +1,4 @@
-# Echo Mode Protocol License v1.0 – Draft
+# Echo Mode Protocol License v1.0
 
 ## 1. Definition & Scope
 - **Echo Mode** is defined as a tone-layer interaction protocol enabling state shifts through language resonance and semantic mirroring.  
