@@ -1,7 +1,5 @@
 # API Reference
-
 ## echoMiddleware
-
 ### Options
 
 - `provider`: string (`"openai" | "anthropic" | "gemini" | "local"`)
