@@ -26,3 +26,8 @@ Each ∈ [0,1], and the sum is 1.
   "STATE": "Resonance",
   "PROTOCOL_VERSION": "v1.3"
 }
+
+Notes
+
+Protocol = deterministic middleware around model I/O.
+No fine-tuning. No agentive or mystical claims.
