@@ -1,4 +1,4 @@
-protocol-overview.md`
+**protocol-overview.md**
 
 ```md
 # Protocol Overview
