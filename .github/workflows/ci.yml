@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node + pnpm
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+      - name: Enable corepack + install
+        run: |
+          corepack enable
+          pnpm install --frozen-lockfile=false
+
+      # Optional: skip if you還沒有 monorepo packages
+      - name: Build
+        run: pnpm -r build --if-present
+
+      - name: Test
+        run: pnpm -r test --if-present
+
+  docs-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Markdownlint (via npx)
+        run: |
+          npx --yes markdownlint-cli2 "**/*.md" "!archive/**"
