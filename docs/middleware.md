@@ -22,3 +22,11 @@ app.post("/chat", echoMiddleware({
 }));
 
 app.listen(3000, () => console.log("Echo server running on port 3000"));
+
+Options
+	•	provider: string ("openai" | "anthropic" | "gemini" | "local")
+	•	getApiKey: function returning a string
+	•	policy:
+	•	initialState: EchoState (default: Sync)
+	•	enableFootnote: boolean
+	•	weights: object with tone weights
