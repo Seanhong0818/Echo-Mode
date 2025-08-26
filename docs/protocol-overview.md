@@ -1,4 +1,3 @@
-```md
 # Protocol Overview
 
 Echo Mode defines a **protocol layer** for conversational stability on top of LLM APIs.  
