@@ -32,7 +32,7 @@ It implements a **finite-state machine (FSM)**, **tone weight vector**, and an o
 pnpm install
 pnpm -r build
 
-Minimal Express middleware
+**Minimal Express middleware**
 
 import express from "express";
 import { echoMiddleware, EchoState } from "@echo/express";
