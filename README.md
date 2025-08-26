@@ -34,7 +34,14 @@ pnpm -r build
 
 Minimal Express middleware
 
-ts
+<pre>
+```ts
+import express from "express";
+import { echoMiddleware, EchoState } from "@echo/express";
+...
+``` 
+</pre>
+
 
 import express from "express";
 import { echoMiddleware, EchoState } from "@echo/express";
