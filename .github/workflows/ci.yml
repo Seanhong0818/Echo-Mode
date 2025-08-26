@@ -7,10 +7,28 @@ on:
     branches: [ main ]
 
 jobs:
-  build-and-test:
+  detect:
     runs-on: ubuntu-latest
-    # 只有 repo 內有任一 package.json 才執行（避免空專案時失敗）
-    if: ${{ hashFiles('**/package.json') != '' }}
+    outputs:
+      has_node: ${{ steps.find.outputs.found }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - id: find
+        name: Detect package.json
+        shell: bash
+        run: |
+          if ls -1 **/package.json 2>/dev/null | grep -q .; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "found=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  build-and-test:
+    needs: detect
+    if: ${{ needs.detect.outputs.has_node == 'true' }}
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
