@@ -12,9 +12,7 @@ jobs:
     outputs:
       has_node: ${{ steps.find.outputs.found }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
+      - uses: actions/checkout@v4
       - id: find
         name: Detect package.json
         shell: bash
@@ -30,33 +28,26 @@ jobs:
     if: ${{ needs.detect.outputs.has_node == 'true' }}
     runs-on: ubuntu-latest
     steps:
-- name: Checkout
-    uses: actions/checkout@v4
-
-- name: Setup Node
-  uses: actions/setup-node@v4
-  with:
-    node-version: 20
-
-- name: Install pnpm
-  run: npm install -g pnpm
-
-- name: Enable corepack + install
-        run: |
-          corepack enable
-          pnpm -v
-          pnpm install --frozen-lockfile=false
-
-- name: Build (monorepo-friendly)
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install pnpm
+        run: npm install -g pnpm
+      - name: Install deps
+        run: pnpm install --frozen-lockfile=false
+      - name: Build (monorepo-friendly)
         run: pnpm -r build --if-present
-
-- name: Test
+      - name: Test
         run: pnpm -r test --if-present
 
   docs-lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Markdownlint (via npx)
-        run: |
-          npx --yes markdownlint-cli2 "**/*.md" "!archive/**"
+      - name: Markdownlint
+        uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: |
+            **/*.md
+            !archive/**
