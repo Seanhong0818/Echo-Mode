@@ -1,30 +1,26 @@
-```md
 # API Reference
 
-## Middleware Options
+## echoMiddleware
+
+### Options
+- `provider`: string ("openai" | "anthropic" | "gemini" | "local")
+- `getApiKey`: () => string
+- `policy`:
+  - `initialState`: EchoState (default: Sync)
+  - `enableFootnote`: boolean
+  - `weights`: { w_sync, w_res, w_chal, w_calm }
+
+### Example
 
 ```ts
-echoMiddleware({
-  provider: "openai" | "anthropic" | "gemini" | "local",
-  getApiKey: () => string,
+import { echoMiddleware, EchoState } from "@echo/express";
+
+app.post("/chat", echoMiddleware({
+  provider: "openai",
+  getApiKey: () => process.env.OPENAI_API_KEY!,
   policy: {
-    initialState: EchoState,
-    enableFootnote?: boolean,
-    weights?: {
-      w_sync: number,
-      w_res: number,
-      w_chal: number,
-      w_calm: number,
-    },
+    initialState: EchoState.Sync,
+    enableFootnote: true,
+    weights: { w_sync: 0.6, w_res: 0.2, w_chal: 0.15, w_calm: 0.05 },
   },
-})
-
-Parameters
-	•	provider: Which LLM backend to call.
-	•	getApiKey: Function returning provider API key.
-	•	policy.initialState: Starting FSM state.
-	•	policy.enableFootnote: Append machine footnote to response.
-	•	policy.weights: Tone weight vector (normalized).
-
-Response Footnote
-{ "echo": { "SYNC_SCORE": 0.81, "STATE": "Sync", "PROTOCOL_VERSION": "v1.3" } }
+}));
