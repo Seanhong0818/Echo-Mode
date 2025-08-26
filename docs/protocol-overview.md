@@ -1,5 +1,3 @@
----
-
 # 📂 `docs/protocol-overview.md`
 
 ```md
