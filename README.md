@@ -34,6 +34,7 @@ pnpm -r build
 
 **Minimal Express middleware**
 
+```ts
 import express from "express";
 import { echoMiddleware, EchoState } from "@echo/express";
 
@@ -51,7 +52,6 @@ app.post("/chat", echoMiddleware({
 }));
 
 app.listen(3000, () => console.log("Echo server on :3000"));
-
 
 Response footnote (when enabled)
 
