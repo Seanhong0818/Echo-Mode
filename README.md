@@ -38,13 +38,6 @@ Minimal Express middleware
 ```ts
 import express from "express";
 import { echoMiddleware, EchoState } from "@echo/express";
-...
-``` 
-</pre>
-
-
-import express from "express";
-import { echoMiddleware, EchoState } from "@echo/express";
 
 const app = express();
 app.use(express.json());
@@ -63,6 +56,10 @@ app.listen(3000, () => console.log("Echo server on :3000"));
 
 Response footnote (when enabled)
 { "echo": { "SYNC_SCORE": 0.82, "STATE": "Resonance", "PROTOCOL_VERSION": "v1.3" } }
+import { echoMiddleware, EchoState } from "@echo/express";
+...
+``` 
+</pre>
 
 Protocol overview
 	•	FSM: Sync → Resonance → Insight → Calm (guarded transitions, with safe back-edges)
