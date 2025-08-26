@@ -9,6 +9,8 @@ on:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
+    # 只有 repo 內有任一 package.json 才執行（避免空專案時失敗）
+    if: ${{ hashFiles('**/package.json') != '' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -18,13 +20,14 @@ jobs:
         with:
           node-version: 20
           cache: 'pnpm'
+
       - name: Enable corepack + install
         run: |
           corepack enable
+          pnpm -v
           pnpm install --frozen-lockfile=false
 
-      # Optional: skip if you還沒有 monorepo packages
-      - name: Build
+      - name: Build (monorepo-friendly)
         run: pnpm -r build --if-present
 
       - name: Test
