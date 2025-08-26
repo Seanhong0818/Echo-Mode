@@ -34,8 +34,6 @@ pnpm -r build
 
 Minimal Express middleware
 
-<pre>
-```ts
 import express from "express";
 import { echoMiddleware, EchoState } from "@echo/express";
 
@@ -54,12 +52,11 @@ app.post("/chat", echoMiddleware({
 
 app.listen(3000, () => console.log("Echo server on :3000"));
 
+
 Response footnote (when enabled)
+
 { "echo": { "SYNC_SCORE": 0.82, "STATE": "Resonance", "PROTOCOL_VERSION": "v1.3" } }
-import { echoMiddleware, EchoState } from "@echo/express";
-...
-``` 
-</pre>
+
 
 Protocol overview
 	•	FSM: Sync → Resonance → Insight → Calm (guarded transitions, with safe back-edges)
