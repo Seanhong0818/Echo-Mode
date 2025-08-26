@@ -1,8 +1,3 @@
----
-
-# 📄 `docs/middleware.md`
-
-```md
 # Middleware
 
 This document explains how to integrate Echo Mode middleware in an application.
