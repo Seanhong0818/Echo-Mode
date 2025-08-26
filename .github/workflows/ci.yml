@@ -41,16 +41,16 @@ jobs:
 - name: Install pnpm
   run: npm install -g pnpm
 
-      - name: Enable corepack + install
+- name: Enable corepack + install
         run: |
           corepack enable
           pnpm -v
           pnpm install --frozen-lockfile=false
 
-      - name: Build (monorepo-friendly)
+- name: Build (monorepo-friendly)
         run: pnpm -r build --if-present
 
-      - name: Test
+- name: Test
         run: pnpm -r test --if-present
 
   docs-lint:
