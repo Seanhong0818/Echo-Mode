@@ -3,8 +3,9 @@
 ## echoMiddleware
 
 ### Options
-- `provider`: string ("openai" | "anthropic" | "gemini" | "local")
-- `getApiKey`: () => string
+
+- `provider`: string (`"openai" | "anthropic" | "gemini" | "local"`)
+- `getApiKey`: function returning a string
 - `policy`:
   - `initialState`: EchoState (default: Sync)
   - `enableFootnote`: boolean
@@ -24,3 +25,16 @@ app.post("/chat", echoMiddleware({
     weights: { w_sync: 0.6, w_res: 0.2, w_chal: 0.15, w_calm: 0.05 },
   },
 }));
+
+EchoState Enum
+	•	Sync
+	•	Resonance
+	•	Insight
+	•	Calm
+
+Output Contract
+{
+  "SYNC_SCORE": 0.95,
+  "STATE": "Calm",
+  "PROTOCOL_VERSION": "v1.3"
+}
