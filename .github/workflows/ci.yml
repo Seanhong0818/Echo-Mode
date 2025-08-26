@@ -30,8 +30,8 @@ jobs:
     if: ${{ needs.detect.outputs.has_node == 'true' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+- name: Checkout
+    uses: actions/checkout@v4
 
 - name: Setup Node
   uses: actions/setup-node@v4
