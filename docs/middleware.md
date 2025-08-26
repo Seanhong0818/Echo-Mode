@@ -1,35 +1,29 @@
-```md
-# Middleware Details
-
-Echo Mode middleware wraps chat-completion APIs and enforces protocol rules.
-
-## Flow
-
-1. Receive user request.  
-2. Route through Echo FSM.  
-3. Inject tone weights + guard instructions.  
-4. Call provider API.  
-5. Post-process response → calculate SYNC_SCORE.  
-6. Optionally append machine footnote.  
-7. Return response.
-
 ---
 
-## Footnote Example
+# 📄 `docs/middleware.md`
 
-```json
-{
-  "echo": {
-    "SYNC_SCORE": 0.77,
-    "STATE": "Insight",
-    "PROTOCOL_VERSION": "v1.3"
-  }
-}
+```md
+# Middleware
 
+This document explains how to integrate Echo Mode middleware in an application.
 
-Repair Loop
+## Minimal Express Example
 
-If SYNC_SCORE < threshold:
-	•	Lower sampling temperature.
-	•	Add stricter system guard instructions.
-	•	Fallback to Calm state if instability persists.
+```ts
+import express from "express";
+import { echoMiddleware, EchoState } from "@echo/express";
+
+const app = express();
+app.use(express.json());
+
+app.post("/chat", echoMiddleware({
+  provider: "openai", // or "anthropic", "gemini"
+  getApiKey: () => process.env.OPENAI_API_KEY!,
+  policy: {
+    initialState: EchoState.Sync,
+    enableFootnote: true,
+    weights: { w_sync: 0.6, w_res: 0.2, w_chal: 0.15, w_calm: 0.05 },
+  },
+}));
+
+app.listen(3000, () => console.log("Echo server running on port 3000"));
