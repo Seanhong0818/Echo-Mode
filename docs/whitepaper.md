@@ -45,7 +45,7 @@ Echo Mode addresses these by introducing a deterministic protocol layer, indepen
 
 ```json
 { "echo": { "SYNC_SCORE": 0.82, "STATE": "Resonance", "PROTOCOL_VERSION": "v1.3" } }
-
+```
 
 ## 3. Implementation
 
