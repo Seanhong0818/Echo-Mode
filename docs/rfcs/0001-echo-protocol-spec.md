@@ -76,6 +76,7 @@ Implementations SHOULD append an out-of-band footnote object:
     "PROTOCOL_VERSION": "v1.3"
   }
 }
+```
 
 - **STATE** ∈ { "Sync", "Resonance", "Insight", "Calm" }  
 - **SYNC_SCORE** ∈ [0,1]  
