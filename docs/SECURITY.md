@@ -10,22 +10,13 @@ We generally support the latest **minor** release line of OSS packages. Security
 
 ## Reporting a Vulnerability
 
-- Email: **security@echomode.io** (PGP preferred)
+- Email: **team@echomode.io** (PGP preferred)
 - Subject: `Vulnerability Report – echo-mode`
 - Include:
   - Affected package and version(s)
   - Reproduction steps or proof-of-concept
   - Impact assessment (what an attacker gains)
   - Any relevant environment details
-
-### PGP Key
-
-```
-Fingerprint: 4A1B B2C3 D4E5 F6A7 8899  0011 2233 4455 6677 8899
-Key URL: https://echomode.io/pgp/security.asc
-```
-
-(If you cannot use PGP, plain email is accepted.)
 
 ## Coordinated Disclosure
 
