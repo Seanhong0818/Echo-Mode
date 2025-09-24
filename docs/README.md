@@ -150,4 +150,4 @@ toCSV("runs.csv", [{ ts: Date.now(), state: "Sync", score: 0.71 }]);
 
 For calibration weights, drift dashboards, SaaS control panel, and provider connectors, contact the team or see the private commercial repository.
 
-<!-- CI smoke test -->
+<!-- CI smoke test --
