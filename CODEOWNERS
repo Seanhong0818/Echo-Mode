@@ -1,0 +1,9 @@
+# Set default owners (GitHub handles or teams)
+*       @ORG/maintainers
+
+# Example per-package ownership
+/open/packages/fsm/        @ORG/maintainers
+/open/packages/heuristics/ @ORG/maintainers
+/open/packages/hud/        @ORG/maintainers
+/open/packages/middleware/ @ORG/maintainers
+/open/packages/exporters/  @ORG/maintainers
