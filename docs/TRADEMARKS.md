@@ -18,4 +18,4 @@ Only software passing official compatibility tests may use this mark.
 
 Commercial offerings (e.g., SaaS control panel) are branded separately and governed by proprietary licenses.
 
-For questions or permissions, contact **trademarks@echomode.io**.
+For questions or permissions, contact **team@echomode.io**.
