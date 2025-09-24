@@ -40,6 +40,6 @@ We generally support the latest **minor** release line of OSS packages. Security
 
 ## Reporting License/Boundary Concerns
 
-If you find code or artifacts in this repo that appear to violate the OSS/Commercial boundary, open a confidential issue via email at **oss-boundary@echomode.io** with file paths and commit hashes.
+If you find code or artifacts in this repo that appear to violate the OSS/Commercial boundary, open a confidential issue via email at **team@echomode.io** with file paths and commit hashes.
 
 Thank you for helping keep Echo Mode and its users safe.
