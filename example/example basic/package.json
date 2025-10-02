@@ -1,0 +1,15 @@
+{
+  "name": "express-basic",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "with-llm": "node server-with-llm.mjs"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "@echo/fsm": "workspace:*",
+    "@echo/heuristics": "workspace:*",
+    "@echo/middleware": "workspace:*"
+  }
+}

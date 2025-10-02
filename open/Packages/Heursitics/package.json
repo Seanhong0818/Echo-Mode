@@ -6,11 +6,7 @@
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "LICENSE",
-    "README.md"
-  ],
+  "files": ["dist", "LICENSE", "README.md"],
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "lint": "echo lint",

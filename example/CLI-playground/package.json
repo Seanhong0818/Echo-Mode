@@ -1,0 +1,12 @@
+{
+  "name": "cli-playground",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node playground.mjs"
+  },
+  "dependencies": {
+    "@echo/fsm": "workspace:*",
+    "@echo/heuristics": "workspace:*"
+  }
+}
