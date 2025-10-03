@@ -79,5 +79,5 @@ Maintainers will:
 - Close or redirect PRs/issues that cross the boundary.  
 - Periodically audit the repository for compliance.
 
-If you spot boundary concerns, contact: **oss-boundary@echomode.io**.
+If you spot boundary concerns, contact: **team@echomode.io**.
 
