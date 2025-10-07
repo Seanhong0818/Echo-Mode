@@ -197,6 +197,7 @@ visit the private **EchoMode.Io Commercial** repository or contact the maintaine
 Echo Mode is designed for developers who care about **long-term persona stability**, **multi-session consistency**, and **governance over emergent tone drift**.
 
 📖 Learn more at [echomode.io](https://echomode.io)  
-💬 Join the discussion on [Reddit](https://reddit.com/r/echomode) and [Twitter/X](https://x.com/echomode)
+💬 Join the discussion on [Reddit](https://www.reddit.com/user/Medium_Charity6146/]    
+   Discord [https://discord.gg/MutrTPuD]
 
 ---
