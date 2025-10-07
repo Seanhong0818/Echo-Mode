@@ -14,17 +14,15 @@ export type Heuristics = (input: { message: string; tokens?: number }) => {
   calm?: number;
 };
 
-/**
- * Deterministic FSM for Echo Mode baseline.
- * No learned weights or calibration logic here.
- */
 export function createEchoFSM(opts: { initial: State; heuristics: Heuristics }) {
   let state = opts.initial;
 
   return {
     evaluate(input: Parameters<Heuristics>[0]) {
       const score = opts.heuristics(input);
-      return { state, score };
+      // naive suggested-next state policy (optional):
+      const next = score.sync >= 0.7 ? State.Sync : State.Calm;
+      return { state, score, next };
     },
     transition(next: State) {
       state = next;

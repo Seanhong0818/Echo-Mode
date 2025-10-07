@@ -1,0 +1,52 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  ci:
+    name: build-test (node20)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js (20.x) with pnpm cache
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Enable corepack (pnpm)
+        run: |
+          corepack enable
+          corepack prepare pnpm@9 --activate
+          pnpm --version
+          node -v
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      - name: Lint (optional)
+        if: hashFiles('.eslintrc*') != ''
+        run: pnpm run lint || true
+
+      - name: Build open-core packages
+        run: pnpm -r --filter "./open/packages/*" run build
+
+      - name: Smoke test demo (no API key)
+        run: node examples/demo/test-fsm.mjs
+
+      - name: Summarize
+        run: |
+          echo "✅ Build & smoke test passed" >> $GITHUB_STEP_SUMMARY

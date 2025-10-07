@@ -2,9 +2,10 @@
   "name": "echo-mode-workspace",
   "private": true,
   "devDependencies": {
+    "@types/node": "^24.7.0",
     "@types/react": "^19.2.1",
     "@types/react-dom": "^19.2.0",
-    "typescript": "^5.6.0"
+    "typescript": "^5.9.3"
   },
   "dependencies": {
     "react": "^19.2.0",
