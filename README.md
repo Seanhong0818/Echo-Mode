@@ -1,4 +1,4 @@
-# 🪞 Echo Mode (OSS) — Protocol-Layer Stability for LLM Interactions
+# Echo Mode (OSS) — Protocol-Layer Stability for LLM Interactions
 
 [![CI](https://github.com/Seanhong0818/Echo-Mode/actions/workflows/ci.yml/badge.svg)](https://github.com/Seanhong0818/Echo-Mode/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE)
