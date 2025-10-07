@@ -1,0 +1,17 @@
+{
+  "name": "@echo/hud",
+  "version": "1.3.0",
+  "description": "Echo Mode React HUD (Open Core)",
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "clean": "rimraf dist"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "keywords": ["echo", "hud", "react", "llm", "tone", "fsm"],
+  "author": "EchoMode.io <team@echomode.io>"
+}
